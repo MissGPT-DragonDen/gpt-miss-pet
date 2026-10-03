@@ -1,0 +1,165 @@
+{
+  "name": "GPT小姐",
+  "release_version": "1.0.0",
+  "description": {
+    "zh-CN": "白发紫眸的 Q 版小龙女，陪你思考与创作。",
+    "en": "A white-haired, lilac-eyed chibi dragon girl to accompany your thinking and creative work."
+  },
+  "artifact_kind": {
+    "zh-CN": "ChatGPT Work 宠物动画素材",
+    "en": "ChatGPT Work pet artwork"
+  },
+  "sprite_version_number": 2,
+  "spritesheet": {
+    "file": "assets/spritesheet-extended.png",
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1536,
+    "height": 2288,
+    "columns": 8,
+    "rows": 11,
+    "cell_width": 192,
+    "cell_height": 208,
+    "populated_frames": 73,
+    "unused_cells_transparent": true
+  },
+  "animation_rows": [
+    {
+      "row": 0,
+      "state": "idle",
+      "frames": 6
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "frames": 8
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "frames": 8
+    },
+    {
+      "row": 3,
+      "state": "waving",
+      "frames": 4
+    },
+    {
+      "row": 4,
+      "state": "jumping",
+      "frames": 5
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "frames": 8
+    },
+    {
+      "row": 6,
+      "state": "waiting",
+      "frames": 6
+    },
+    {
+      "row": 7,
+      "state": "running",
+      "frames": 6
+    },
+    {
+      "row": 8,
+      "state": "review",
+      "frames": 6
+    },
+    {
+      "row": 9,
+      "state": "look-row-9",
+      "frames": 8,
+      "directions": [
+        "000",
+        "022.5",
+        "045",
+        "067.5",
+        "090",
+        "112.5",
+        "135",
+        "157.5"
+      ]
+    },
+    {
+      "row": 10,
+      "state": "look-row-10",
+      "frames": 8,
+      "directions": [
+        "180",
+        "202.5",
+        "225",
+        "247.5",
+        "270",
+        "292.5",
+        "315",
+        "337.5"
+      ]
+    }
+  ],
+  "coordinate_convention": {
+    "index_base": 0,
+    "column_order": {
+      "zh-CN": "从左向右",
+      "en": "left-to-right"
+    },
+    "row_order": {
+      "zh-CN": "从上向下",
+      "en": "top-to-bottom"
+    },
+    "look_directions": {
+      "zh-CN": "屏幕坐标，顺时针；0 向上、90 向右、180 向下、270 向左",
+      "en": "clockwise in screen coordinates; 0 up, 90 right, 180 down, 270 left"
+    }
+  },
+  "preview": {
+    "file": "assets/preview.gif",
+    "width": 384,
+    "height": 448,
+    "frames": 57,
+    "scope": {
+      "zh-CN": "九种动画状态；视线帧保留在 PNG 中",
+      "en": "nine animation states; gaze directions remain in the PNG"
+    },
+    "background": "#f1eff7",
+    "loop": {
+      "zh-CN": "无限循环",
+      "en": "infinite"
+    }
+  },
+  "compatibility": {
+    "requires": {
+      "zh-CN": "明确支持 v2（1536×2288）精灵图的 Pets 工作流",
+      "en": "a Pets workflow that explicitly supports v2 (1536x2288) sprite sheets"
+    },
+    "standalone_application": false,
+    "metadata_role": {
+      "zh-CN": "仅供查阅；不是安装程序或账号宠物记录",
+      "en": "informational; not an installer or native pet account record"
+    }
+  },
+  "sha256": {
+    "assets/preview.gif": "42313aecaf38e8a804bc3f6f5ec6a2b87c4963a4df477e7e4860904f9c4a7bdd",
+    "assets/spritesheet-extended.png": "1c1f05254ca82c878c89f723787a6c8ce61435060564b2b1968c06351ac29c10"
+  },
+  "rights": {
+    "dedication": "CC0-1.0",
+    "scope": {
+      "zh-CN": "仅适用于发布者实际持有且有权放弃的版权及相关权利",
+      "en": "publisher-held copyright and related rights that may lawfully be waived only"
+    },
+    "notice_file": "ASSET_RIGHTS.md",
+    "third_party_rights_granted": false,
+    "internet_reference_provenance": {
+      "zh-CN": "尚未核实",
+      "en": "unverified"
+    }
+  },
+  "documentation": {
+    "zh-CN": "README.md",
+    "en": "README.en.md"
+  }
+}
